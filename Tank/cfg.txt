@@ -1,0 +1,211 @@
+; SHEET_COLOR_KEY R G B
+; SPRITE name id x y w h
+; ANIM name id n
+; ADD_FRAME id_Anim spriteID spriteTime
+
+; Transparency----------------------------
+SHEET_COLOR_KEY 255 0 255
+
+; Sprites---------------------------------
+SPRITE 0  0 300 50 50  ; NULL
+SPRITE 1  0 183 562 87 ; logo
+SPRITE 2  0 401 255 57  ; menu
+SPRITE 3  9 6 39 39  ; zolty_stoi1
+SPRITE 4  57 6 39 39 ; zolty_stoi2
+SPRITE 5  284 5 10 10  ; strzal
+SPRITE 6  7 66 47 49 ; wybuch1
+SPRITE 7  65 66 47 49 ; wybuch2
+SPRITE 8  123 66 47 49 ;wybuch3
+SPRITE 9  314 17 24 24 ;cegla
+SPRITE 10  338 17 24 24 ; stal
+SPRITE 11  290 41 24 24 ; woda
+SPRITE 12  362 17 24 24 ; las
+SPRITE 13  391 79 48 42 ; orzel
+SPRITE 14  394 125 48 42 ; martwy-orzel
+SPRITE 15  178 70 102 106 ; wybuch-duzy1
+SPRITE 16  280 70 102 106 ; wybuch-duzy2 
+SPRITE 17  289 402 45 44 ; blysk1
+SPRITE 18  337 402 45 44 ; blysk2
+SPRITE 19  385 402 45 44 ; blysk3
+SPRITE 20  431 402 45 44 ; blysk4
+SPRITE 21  419 23 39 39 ; CPU1
+SPRITE 22  470 23 39 39 ; CPU2
+SPRITE 23  518 23 39 39 ; CPU3
+SPRITE 24  569 23 39 39 ; CPU4
+SPRITE 25  614 23 39 39 ; CPU5
+SPRITE 26  665 23 39 39 ; CPU6
+SPRITE 27  499 82 41 42 ; CPU2-1
+SPRITE 28  547 82 41 42 ; CPU2-2
+SPRITE 29  593 82 41 42 ; CPU2-3
+SPRITE 30  641 82 41 42 ; CPU2-4
+SPRITE 31  498 133 41 42 ; CPU2-5
+SPRITE 32  546 133 41 42 ; CPU2-6
+SPRITE 33  572 191 35 41 ; CPU3-1
+SPRITE 34  612 191 35 41 ; CPU3-2
+SPRITE 35  655 191 35 41 ; CPU3-3
+SPRITE 36  695 191 35 41 ; CPU3-4
+SPRITE 37  655 241 35 41 ; CPU3-5
+SPRITE 38  695 241 35 41 ; CPU3-6
+SPRITE 39  709 23 39 39 ; Bounusowy
+SPRITE 40  338 41 21 21 ; ikona-1
+SPRITE 41  362 41 21 24 ; ikona-2
+SPRITE 42  692 84 28 26 ; ikona-3
+SPRITE 43  499 279 147 71 ; game_over
+SPRITE 44  490 363 39 39  ; zielony_stoi1
+SPRITE 45  538 363 39 39 ; zielony_stoi2
+SPRITE 46  103 301 377 89 ; logo2
+
+
+; Animations-----------------------------------
+ANIM 0 1         ; NULL
+ADD_FRAME 0 0 10
+
+ANIM 1 1         ; logo
+ADD_FRAME 1 1 10
+
+ANIM 2 1         ; zolty_stoi
+ADD_FRAME 2 3 10
+
+ANIM 3 2          ;zolty_jedzie
+ADD_FRAME 3 3 50
+ADD_FRAME 3 4 50
+
+ANIM 4 1          ;strzal
+ADD_FRAME 4 5 10
+
+ANIM 5 3          ;wybuch-maly
+ADD_FRAME 5 6 50
+ADD_FRAME 5 7 50
+ADD_FRAME 5 8 50
+
+ANIM 6 1         ; cegla
+ADD_FRAME 6 9 10
+
+ANIM 7 1          ; stal
+ADD_FRAME 7 10 10
+
+ANIM 8 1          ; woda
+ADD_FRAME 8 11 10
+
+ANIM 9 1          ; las
+ADD_FRAME 9 12 10
+
+ANIM 10 1          ; orzel
+ADD_FRAME 10 13 10
+
+ANIM 11 1          ; martwy-orzel
+ADD_FRAME 11 14 10
+
+ANIM 12 2          ;wybuch-duzy
+ADD_FRAME 12 15 70
+ADD_FRAME 12 16 70
+
+ANIM 13 5          ;wybuch-duzy
+ADD_FRAME 13 0 120
+ADD_FRAME 13 17 120
+ADD_FRAME 13 18 120
+ADD_FRAME 13 19 120
+ADD_FRAME 13 20 180
+
+ANIM 14 1         ; CPU-stoi- s³aby
+ADD_FRAME 14 21 10
+
+ANIM 15 2         ; CPU-jedzie- s³aby
+ADD_FRAME 15 21 40
+ADD_FRAME 15 22 40
+
+ANIM 16 1         ; CPU-stoi- sredni
+ADD_FRAME 16 23 10
+
+ANIM 17 2         ; CPU-jedzie- sredni
+ADD_FRAME 17 23 40
+ADD_FRAME 17 24 40
+
+ANIM 18 1         ; CPU-stoi- mocny
+ADD_FRAME 18 25 10
+
+ANIM 19 2         ; CPU-jedzie- mocny
+ADD_FRAME 19 25 40
+ADD_FRAME 19 26 40
+
+ANIM 20 1         ; CPU2-stoi- s³aby
+ADD_FRAME 20 27 10
+
+ANIM 21 2         ; CPU2-jedzie- s³aby
+ADD_FRAME 21 27 40
+ADD_FRAME 21 28 40
+
+ANIM 22 1         ; CPU2-stoi- sredni
+ADD_FRAME 22 29 10
+
+ANIM 23 2         ; CPU2-jedzie- sredni
+ADD_FRAME 23 29 40
+ADD_FRAME 23 30 40
+
+ANIM 24 1         ; CPU2-stoi- mocny
+ADD_FRAME 24 31 10
+
+ANIM 25 2         ; CPU2-jedzie- mocny
+ADD_FRAME 25 31 40
+ADD_FRAME 25 32 40
+
+ANIM 26 1         ; CPU3-stoi- s³aby
+ADD_FRAME 26 33 10
+
+ANIM 27 1         ; CPU3-jedzie- s³aby
+ADD_FRAME 27 33 40
+
+ANIM 28 1         ; CPU3-stoi- sredni
+ADD_FRAME 28 35 10
+
+ANIM 29 1         ; CPU3-jedzie- sredni
+ADD_FRAME 29 35 40
+
+ANIM 30 1         ; CPU3-stoi- mocny
+ADD_FRAME 30 37 10
+
+ANIM 31 1         ; CPU3-jedzie- mocny
+ADD_FRAME 31 37 10
+
+ANIM 32 2         ; Bonusowy
+ADD_FRAME 32 21 70
+ADD_FRAME 32 39 70
+
+ANIM 33 2         ; Bonusowy
+ADD_FRAME 33 21 40
+ADD_FRAME 33 39 40
+
+ANIM 34 1         ; ikona-1
+ADD_FRAME 34 40 10
+
+ANIM 35 1         ; ikona-2
+ADD_FRAME 35 41 10
+
+ANIM 36 1         ; ikona-2
+ADD_FRAME 36 42 10
+
+ANIM 37 1         ; game_over
+ADD_FRAME 37 43 10
+
+ANIM 38 1         ; zielony_stoi
+ADD_FRAME 38 44 10
+
+ANIM 39 2          ;zielony_jedzie
+ADD_FRAME 39 44 50
+ADD_FRAME 39 45 50
+
+ANIM 40 1         ; logo2
+ADD_FRAME 40 46 10
+
+ANIM 41 1         ; menu
+ADD_FRAME 41 2 10
+
+
+;Sounds---------------------------------
+SOUND 0 sounds/start.wav
+SOUND 1 sounds/stand.wav
+SOUND 2 sounds/move.wav
+SOUND 3 sounds/shot.wav
+SOUND 4 sounds/ex1.wav
+SOUND 5 sounds/ex2.wav
+SOUND 6 sounds/ex3.wav

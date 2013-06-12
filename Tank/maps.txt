@@ -1,0 +1,119 @@
+; width-22
+; height-19
+
+; Maps----------------------------------
+
+ID 0
+************************
+*BBB   B  BBBB      BBB*
+*BBB      BBBB      BBB*
+*BB                   B*
+*         WWWW         *
+*         WWWW         *
+*         WwWW   SS    *
+*B FFFFF  WWBBSSSSS    *
+*  FFFFF         SS    *
+*  FFFFF         SS    *
+*  FFFFF   SSSSSSSS    *
+*                      *
+*                      *
+*   SSSSBBBBBBBBBBB BBB*
+*        BBBBBBBBBB    *
+*                      *
+*   BBBBBBBBBBBBBBB    *
+*B  BBBBBBBBBBBBBBB    *
+*B  BBBBBBBBBBBBBBB    *
+*B   BBBBBBBBBBBBBB   B*
+************************
+
+ID 1
+************************
+***        **        ***
+***        **        ***
+*                      *
+*         WWWW         *
+*         WWWW         *
+*         WwWW   SS    *
+*B FFFFF  WWBBSSSSS    *
+*  FFFFF         SS    *
+*  FFFFF         SS    *
+*  FFFFF   SSSSSSSS    *
+*               FFFFF  *
+* FFFF  FFFFFF         *
+*       BBBBBBBBBBB BBB*
+*        BBBBBBBBBB    *
+*                      *
+*                      *
+*B        ****         *
+*B      ********       *
+*B      ********      B*
+************************
+
+ID 2
+************************
+***        **        ***
+***        **        ***
+*                      *
+*         WWWW         *
+*   SSSSS WWWW         *
+*         WwWW   SS    *
+*B FFFFF  WWBBSSSSS    *
+*  FFFFF         SS    *
+*  FFFFF         SS    *
+*  FFFFF   SSSSSSSS    *
+*               FFFFF  *
+* FFFF  FFFFFF         *
+*       BBBBBBBBBBB BBB*
+* BBBBB  BBBBBBBBBB    *
+*       WWWWWWWWW      *
+*                      *
+*B        ****         *
+*B      ********       *
+*B      ********      B*
+************************
+
+ID 3
+************************
+***        **        ***
+***        **        ***
+*                      *
+*                      *
+*   SSSSS              *
+*         WwWW   SS    *
+*B FFFFF  WW     SS    *
+*  FFFFF         SS    *
+*                SS    *
+*  FFFFF   SSSSSSSS    *
+*               FFFFF  *
+* FFFF  FFFFFF         *
+*       BBBB      B BBB*
+* BBBBB  BBBBBBBBBB    *
+*       WWWWWWWWW      *
+*                      *
+*B        ****         *
+*B      ********       *
+*B      ********      B*
+************************
+
+ID 4
+************************
+***        **        ***
+***        **        ***
+*                      *
+*                      *
+*BBBBBBBBBBBBBBBBBBBBBB*
+*         WwWW   SS    *
+*B FFFFF  WW     SS    *
+*  FFFFF         SS    *
+*        SSSSSSS SS    *
+*  FFFFF   SSSSSSSS    *
+*               FFFFF  *
+* FFFF  FFFFFF         *
+*       BBBB      B BBB*
+* BBBBB  BBBBBBBBBB    *
+*                      *
+*                      *
+*B        ****         *
+*B      ********       *
+*B      ********      B*
+************************

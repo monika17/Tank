@@ -1,0 +1,39 @@
+CreateFile: 
+HidD_GetAttributes: 
+Device detected
+HidD_GetPreparsedData: 
+HidP_GetCaps: 
+Usage Page: 140
+
+Input Report Byte Length: 64
+
+Output Report Byte Length: 64
+
+Feature Report Byte Length: 0
+
+Number of Link Collection Nodes: 1
+
+Number of Input Button Caps: 0
+
+Number of InputValue Caps: 1
+
+Number of InputData Indices: 1
+
+Number of Output Button Caps: 0
+
+Number of Output Value Caps: 1
+
+Number of Output Data Indices: 1
+
+Number of Feature Button Caps: 0
+
+Number of Feature Value Caps: 0
+
+Number of Feature Data Indices: 0
+
+HidD_FreePreparsedData: 
+CreateFile: 
+CreateFile (ReadHandle): 
+CreateEvent: 
+Device detected
+SetupDiDestroyDeviceInfoList
